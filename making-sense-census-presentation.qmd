@@ -22,7 +22,7 @@ title-slide-attributes:
 
 ## {background-image=/images/db-fall.png}
 
-## History of the US Census 
+## History of the US Census {.smaller}
 ::: {.fragment}
 
 Section 2 of the U.S. Constitution states:
@@ -57,7 +57,7 @@ U.S. Marshalls conduct the first census, which was little more than a count of o
 [A Timeline of the Census History](https://www.census.gov/history/img/timeline_census_history.bmp)
 :::
 
-## History of the US Census
+## History of the US Census {.smaller}
 
 . . . 
 
@@ -82,12 +82,12 @@ Hollerith formed the Tabulating Machine Company, which later became part of what
 :::
 :::
 ::: {.column width="50%"}
-![A Census Bureau clerk tabulates data using a Hollerith Machine.](https://www.census.gov/history/img/HollerithMachine.jpg)
+![A Census Bureau clerk tabulates data using a Hollerith Machine.^[https://www.census.gov/history/www/homepage_archive/2016/january_2016.html]](https://www.census.gov/history/img/HollerithMachine.jpg)
 :::
 
 ::::
 
-## Pioneers in Computing{.smaller}
+## Pioneers in Computing {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -106,7 +106,7 @@ During the ENIAC project, the lead engineer on the ENIAC met with several Census
 ::::
 
 
-## Finding Census Data
+## Finding Census Data {.smaller}
 
 Begin with a research question.
 
@@ -123,7 +123,7 @@ There are three questions to consider:
 :::
 
 
-## What [topics]{style="color:#205493;"} are covered by the various surveys?
+## What [topics]{style="color:#205493;"} are covered by the various surveys? {.smaller}
 
 
 The Census Bureau measures the economy, people, and places. The Bureau publishes 
@@ -140,7 +140,7 @@ statistics on many topics:
 > "What is the [education]{style="color:#205493;"} attainment in my community"? 
 :::
  
-## [Where]{style="color:#205493;"} does the data come from?
+## [Where]{style="color:#205493;"} does the data come from? {.smaller}
 
 . . .
 
@@ -153,7 +153,7 @@ Data is published at different times, in different frequencies, and for differen
 Some are published monthly, some yearly, and even once every ten years, as is the case with the decennial census. 
 
 
-## [Where]{style="color:#205493;"} does the data come from?
+## [Where]{style="color:#205493;"} does the data come from? {.smaller}
 
 
 :::: {.columns}
@@ -176,7 +176,7 @@ The Census Survey can help you discover which surveys have the topics, geographi
 [Survey Explorer](https://www.census.gov/data/data-tools/survey-explorer/)
 :::
 
-## What [geographies]{style="color:#205493;"} does the Census Bureau publish data for?
+## What [geographies]{style="color:#205493;"} does the Census Bureau publish data for? {.smaller}
 
 . . .
 
@@ -188,7 +188,7 @@ We know the American Community Survey (ACS) has social characteristics for many 
 
 :::
 
-## We need to define our [community]{style="color:#205493;"}!
+## We need to define our [community]{style="color:#205493;"}! {.smaller}
 
 :::{.fragment}
 State
@@ -208,7 +208,7 @@ or Block?
 If your community is below [65,000]{style="color:#205493;"}, you need the 5 year ACS estimates. If it is [65,000]{style="color:#205493;"} or greater, you can select either the 1 year or 5 year estimates.
 :::
 
-## Geography
+## Geography {.smaller}
 
 
 :::: {.columns}
@@ -226,7 +226,7 @@ If your community is below [65,000]{style="color:#205493;"}, you need the 5 year
 
 ![](/images/reg-div.jpeg)
 
-## Geography
+## Geography {.smaller}
 
 
 :::: {.columns}
@@ -310,9 +310,9 @@ The statistical equivalent to a place that has incorporated.
 ::::
 
 
-## Censuses and Surveys
+## Censuses and Surveys {.smaller}
 
-![](https://www.usda.gov/sites/default/files/nass-census-survey-difference-blog-110122.png)
+![](https://www.usda.gov/sites/default/files/nass-census-survey-difference-blog-110122.png)^[https://www.usda.gov/media/blog/2022/11/01/census-vs-survey-whats-difference]
 
 ## Decennial Census {.smaller}
 
@@ -347,7 +347,7 @@ the First Family, April 1, 1950.^[https://www.census.gov/history/www/programs/de
 ::: {.column width="50%"}
 
 ::: {.incremental}
-- The ACS is the nation's most current reliable and accessible data source for local statistics on critical planning topics such as age, children, commuting, education, and employment. It's a household survey conducted by the Census Bureau that samples about 3 1/2 million addresses each year.
+- Household survey conducted by the Census Bureau that samples about 3 1/2 million addresses each year.
 
 - Fully implemented in 2005, arising for a need to collect social, economic, and housing data continuously through the decade.
 
@@ -359,17 +359,17 @@ the First Family, April 1, 1950.^[https://www.census.gov/history/www/programs/de
 :::
 
 ::: {.column width="50%"}
-![](https://www.arcgis.com/sharing/rest/content/items/401cf2f8549f442ba171fc9df6316b1b/resources/images/widget_103/1642698051100.png)
+![](https://www.arcgis.com/sharing/rest/content/items/401cf2f8549f442ba171fc9df6316b1b/resources/images/widget_103/1642698051100.png)^[https://www.census.gov/library/visualizations/interactive/acs-datawheel.html]
 :::
 
 ::::
 
-## Accessing Census Data 
+## Accessing Census Data {.smaller}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-[QuickFacts](https://www.census.gov/quickfacts/)
+### [QuickFacts](https://www.census.gov/quickfacts/)
 
 ::: {.fragment}
 QuickFacts is an easy to use application that provides tables, maps, and charts of frequently requested statistics from many Census Bureau censuses, surveys, and programs.
@@ -381,20 +381,20 @@ Profiles are available for the nation, all 50 states plus the District of Columb
 :::
 
 ::: {.column width="50%"}
-![](https://files.wmich.edu/s3fs-public/images/u3272/2019/USCB%20QF%201.jpg)
+![](https://files.wmich.edu/s3fs-public/images/u3272/2019/USCB%20QF%201.jpg)^[https://www.census.gov/data.html]
 :::
 
 ::::
 
 
-## Accessing Census Data 
+## Accessing Census Data {.smaller}
 
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 
-[https://data.census.gov/](https://data.census.gov/)
+### [data.census.gov](https://data.census.gov/)
 
 A unified platform for accessing U.S. Census data.
 :::
@@ -405,9 +405,9 @@ A unified platform for accessing U.S. Census data.
 
 ::::
 
-## Accessing Census Data 
+## Accessing Census Data {.smaller}
 
-[Population Estimates Program (PEP)](https://www.census.gov/programs-surveys/popest.html)
+### [Population Estimates Program (PEP)](https://www.census.gov/programs-surveys/popest.html)
 
 Provides estimates of the population for the United States, states, metropolitan and micropolitan statistical areas, counties, cities, towns, as well as for Puerto Rico and its municipios.
 
