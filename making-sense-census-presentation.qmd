@@ -20,11 +20,15 @@ title-slide-attributes:
   data-background-opacity: "0.4"
 ---
 
+## {background-image=/images/db-fall.png}
+
 ## History of the US Census 
+::: {.fragment}
 
 Section 2 of the U.S. Constitution states:
 
 >“The actual enumeration shall be made within three years after the first meeting of the Congress of the United States, and within every subsequent term of ten years, in such manner as they shall by law direct." ^[https://www.census.gov/programs-surveys/decennial-census/about/census-constitution.html]
+:::
 
 ::: {.fragment}
 The decennial census began in August 2, 1790, under the supervision of the Secretary of State, Thomas Jefferson. 
@@ -201,21 +205,257 @@ or Block?
 
 
 ::: {.fragment}
-If your community is below 65,000, you need the 5 year ACS estimates. If it is 65,000 or greater, you can select either the 1 year or 5 year estimates.
+If your community is below [65,000]{style="color:#205493;"}, you need the 5 year ACS estimates. If it is [65,000]{style="color:#205493;"} or greater, you can select either the 1 year or 5 year estimates.
 :::
 
-## Decennial Census
+## Geography
 
-## American Community Survey (ACS)
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-The ACS is a nationwide survey that provides communities with social, economic, housing, and demographic data annually. 
 :::
 
 ::: {.column width="50%"}
-
+![](/images/geography.png)
 :::
 
 ::::
+
+## 
+
+![](/images/reg-div.jpeg)
+
+## Geography
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+:::
+
+::: {.column width="50%"}
+![](/images/geography.png)
+:::
+
+::::
+
+## Census Designated Place (CDP) {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+The statistical equivalent to a place that has incorporated.
+:::
+
+::: {.column width="50%"}
+![](/images/block.jpg)
+:::
+
+::::
+
+## Census Tracts {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Developed to analyze temporally.
+- Bounded to include roughly 4,000 persons. 
+- Populations exceeding 8,000 are split into two or more smaller census tracts.
+- Follow accounting boundaries, and sometimes municipal boundaries.
+:::
+
+::: {.column width="50%"}
+![](/images/block.jpg)
+:::
+
+::::
+
+## Census Block Groups and Blocks {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Building block for all geographic boundaries the Census Bureau tabulates.
+- Generally small in area, but larger and more irregular in suburban and rural areas.
+- Rural blocks can be hundreds of square miles.
+- Smallest level of geography you can get basic demographic data for, such as total population by age, sex, and race. The ACS does not include census blocks - the smallest unit is the block group.
+:::
+
+::: {.column width="50%"}
+![](/images/block.jpg)
+:::
+
+::::
+
+## ZIP Code Tabulation Areas {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Published in the Decennial Census and ACS.
+- ZCTA are polygonal simulations of the zip code.
+- The ZCTA represents the ZIP code associated with the most addresses in a census block.
+:::
+
+::: {.column width="50%"}
+![](/images/block.jpg)
+:::
+
+::::
+
+
+## Censuses and Surveys
+
+![](https://www.usda.gov/sites/default/files/nass-census-survey-difference-blog-110122.png)
+
+## Decennial Census {.smaller}
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+::: {.fragment}
+The decennial census has been conducted in years ending in "0" since 1790.
+:::
+
+::: {.fragment}
+Census data is also used to make decisions affecting legislation and spending on housing, highways, hospitals, schools, assistance programs, and scores of projects and programs that are vital to the health and welfare of the U.S. population and economy.
+:::
+
+::: {.fragment}
+The most recent census is the 2020 decennial census.
+:::
+:::
+::: {.column width="50%"}
+
+![Enumerator Eileen Nolte interviews
+the First Family, April 1, 1950.^[https://www.census.gov/history/www/programs/demographic/decennial_census.html]](https://www.census.gov/history/img/4-1-50-Enumeratingfirstfam.jpg)
+:::
+
+::::
+
+## American Community Survey (ACS) {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.incremental}
+- The ACS is the nation's most current reliable and accessible data source for local statistics on critical planning topics such as age, children, commuting, education, and employment. It's a household survey conducted by the Census Bureau that samples about 3 1/2 million addresses each year.
+
+- Fully implemented in 2005, arising for a need to collect social, economic, and housing data continuously through the decade.
+
+- ACS is based on a sample of the population, whereas the Decennial Census is a count of the population.
+
+- There are 40-plus topics available in the ACS include: demographic data, commuting, employment income, housing costs, fertility, and more.
+:::
+
+:::
+
+::: {.column width="50%"}
+![](https://www.arcgis.com/sharing/rest/content/items/401cf2f8549f442ba171fc9df6316b1b/resources/images/widget_103/1642698051100.png)
+:::
+
+::::
+
+## Accessing Census Data 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+[QuickFacts](https://www.census.gov/quickfacts/)
+
+::: {.fragment}
+QuickFacts is an easy to use application that provides tables, maps, and charts of frequently requested statistics from many Census Bureau censuses, surveys, and programs.
+:::
+
+::: {.fragment}
+Profiles are available for the nation, all 50 states plus the District of Columbia and Puerto Rico, and all counties. Cities and towns with a population of 5,000 or more are also included.
+:::
+:::
+
+::: {.column width="50%"}
+![](https://files.wmich.edu/s3fs-public/images/u3272/2019/USCB%20QF%201.jpg)
+:::
+
+::::
+
+
+## Accessing Census Data 
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+[https://data.census.gov/](https://data.census.gov/)
+
+A unified platform for accessing U.S. Census data.
+:::
+
+::: {.column width="50%"}
+![](https://www.census.gov/content/dam/Census/gs-imports/social-media-sharing-images/social-image-CEDSCI.png)^[https://www.census.gov/content/dam/Census/gs-imports/social-media-sharing-images/social-image-CEDSCI.png]
+:::
+
+::::
+
+## Accessing Census Data 
+
+[Population Estimates Program (PEP)](https://www.census.gov/programs-surveys/popest.html)
+
+Provides estimates of the population for the United States, states, metropolitan and micropolitan statistical areas, counties, cities, towns, as well as for Puerto Rico and its municipios.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+:::
+
+::: {.column width="50%"}
+:::
+
+::::
+
+## Census API {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment}
+API or **A**pplication **P**rogramming **I**nterface.
+:::
+
+::: {.fragment} 
+An API is an interface that accepts inputs, and produces outputs.
+:::
+
+::: {.fragment}
+[Available Census APIs](https://www.census.gov/data/developers/data-sets.html)
+:::
+
+::: {.fragment}
+
+- Returns in `.html`, `.json`, and `.xml`.
+:::
+
+::: {.fragment}
+Simplified API Interfaces exist in the programming languages R and Python:
+
+- `tidycensus` is an R package that allows users to interface with a select number of the US Census Bureau’s data APIs and return tidyverse-ready data frames, optionally with simple feature geometry included.
+
+- `census` is a Python package that provides access to ACS and Summary File 1 data sets.
+:::
+:::
+
+::: {.column width="50%"}
+![](/images/api.png)
+:::
+::::
+## Questions?
