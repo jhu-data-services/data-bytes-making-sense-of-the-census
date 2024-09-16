@@ -1,0 +1,177 @@
+---
+title: "Making Sense of the US Census"
+author:
+  - name: Pete Lawson
+    email: plawson@jhu.edu
+    role: Data and Visualization Librarian
+    degrees: PhD
+    affiliations:
+      - name: Data Services
+format:
+  revealjs:
+    theme: presentation.scss
+    footer: "Data Bytes - Fall 2024"
+    logo: /images/libraries.logo.png
+    chalkboard:
+      buttons: true
+      chalk-effect: 0.1
+title-slide-attributes:
+  data-background-image: /images/adobe-map.jpeg
+  data-background-size: contain
+  data-background-opacity: "0.4"
+---
+
+## History of the US Census 
+
+Section 2 of the U.S. Constitution states:
+
+>“The actual enumeration shall be made within three years after the first meeting of the Congress of the United States, and within every subsequent term of ten years, in such manner as they shall by law direct." ^[https://www.census.gov/programs-surveys/decennial-census/about/census-constitution.html]
+
+::: {.fragment}
+The decennial census began in August 2, 1790, under the supervision of the Secretary of State, Thomas Jefferson. 
+:::
+
+## History of the US Census {.smaller}
+:::: {.columns}
+::: {.column width="50%"}
+U.S. Marshalls conduct the first census, which was little more than a count of our population, which asks six questions:
+
+::: {.fragment fragment-index=1 .smaller}
+- Name of the head of the family
+- Number of 
+  - free white males 16 years and up 
+  - free white males under 16 years
+  - free white females
+  - all other free persons
+  - slaves
+:::
+:::
+::: {.column width="50%"}
+![Photo Credit: Conkling Studio - Dodge City Peace Commission / Wikimedia Commons / Public Domain](/images/marshalls.png)
+:::
+::::
+::: footer
+[A Timeline of the Census History](https://www.census.gov/history/img/timeline_census_history.bmp)
+:::
+
+## History of the US Census
+
+. . . 
+
+By the turn of the century, the demographic, agricultural, and economic segments of the decennial census collected information on hundreds of topics. 
+
+. . .
+
+Recognizing the growing complexity of the decennial census, Congress created a permanent Census Office within the Department of the Interior on March 6, 1902. 
+
+. . .
+
+On July 1, 1902, the U.S. Census Bureau officially "opened its doors".
+
+## Innovations {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+Herman Hollerith, a U.S. Census Bureau employee during the 1880 census, revolutionized a means of coding and tallying information for the 1890 census, using punch cards.
+
+::: {.fragment}
+Hollerith formed the Tabulating Machine Company, which later became part of what is now International Business Machines, or IBM Corporation.
+:::
+:::
+::: {.column width="50%"}
+![A Census Bureau clerk tabulates data using a Hollerith Machine.](https://www.census.gov/history/img/HollerithMachine.jpg)
+:::
+
+::::
+
+## Pioneers in Computing{.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+The Electronic Numeric Integrator and Computer or ENIAC was the first programmable, electronic, general-purpose digital computer, used by the War Department's Ballistic Research Laboratory. ^[https://www.census.gov/history/www/innovations/technology/univac_i.html]
+
+::: {.fragment}
+During the ENIAC project, the lead engineer on the ENIAC met with several Census Bureau officials to discuss non-military applications for electronic computing devices. The final result were specifications for the Universal Automatic Computer, or UNIVAC.
+:::
+:::
+::: {.column width="50%"}
+
+::: {.fragment}
+![A UNIVAC computer at the Census Bureau, ca. 1960.](https://www.census.gov/history/img/univacphoto.jpg)
+:::
+:::
+::::
+
+
+## Finding Census Data
+
+Begin with a research question.
+
+> "What is the education attainment in my community"? 
+ 
+. . .
+
+There are three questions to consider:
+
+::: {.incremental}
+1. What data [topics]{style="color:#205493;"} are covered by the various surveys?
+2. [Where]{style="color:#205493;"} does the data come from?
+3. What [geographies]{style="color:#205493;"} does the Census Bureau publish data for?
+:::
+
+
+## What [topics]{style="color:#205493;"} are covered by the various surveys?
+
+
+The Census Bureau measures the economy, people, and places. The Bureau publishes 
+statistics on many topics:
+
+::: {.incremental}
+- **Demographic**: Sex, Age, Race, Hispanic Origin, Housing Units
+- **Social**: Education, Marital Status, Fertility, Grandparents
+- **Housing**: Occupancy, Housing Value & Costs, Utilities
+- **Economic**: Income & Poverty, Employment, Occupation, Industry
+:::
+
+::: {.fragment}
+> "What is the [education]{style="color:#205493;"} attainment in my community"? 
+:::
+ 
+## [Where]{style="color:#205493;"} does the data come from?
+
+. . .
+
+There are over 130 surveys and censuses.
+
+. . .
+
+Data is published at different times, in different frequencies, and for different geographies. 
+
+Some are published monthly, some yearly, and even once every ten years, as is the case with the decennial census. 
+
+
+## [Where]{style="color:#205493;"} does the data come from?
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+One tool we can use is the [Census Survey Explorer](https://www.census.gov/data/data-tools/survey-explorer/)
+
+
+::: {.fragment}
+The Census Survey can help you discover which surveys have the topics, geographies, and frequency of release that you are interested in. 
+:::
+:::
+
+::: {.column width="50%"}
+![](/images/survey-explorer.png)
+:::
+
+::::
+::: footer
+[Survey Explorer](https://www.census.gov/data/data-tools/survey-explorer/)
+:::
+
+
+## {background-iframe="https://data.census.gov/" background-interactive=True}
