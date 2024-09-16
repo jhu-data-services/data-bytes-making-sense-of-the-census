@@ -11,7 +11,6 @@ format:
   revealjs:
     theme: presentation.scss
     footer: "Data Bytes - Fall 2024"
-    logo: /images/libraries.logo.png
     chalkboard:
       buttons: true
       chalk-effect: 0.1
@@ -173,5 +172,50 @@ The Census Survey can help you discover which surveys have the topics, geographi
 [Survey Explorer](https://www.census.gov/data/data-tools/survey-explorer/)
 :::
 
+## What [geographies]{style="color:#205493;"} does the Census Bureau publish data for?
 
-## {background-iframe="https://data.census.gov/" background-interactive=True}
+. . .
+
+> "What is the education attainment in my [community]{style="color:#205493;"}"? 
+
+:::{.fragment}
+
+We know the American Community Survey (ACS) has social characteristics for many geographies. 
+
+:::
+
+## We need to define our [community]{style="color:#205493;"}!
+
+:::{.fragment}
+State
+:::
+:::{.fragment}
+or County 
+:::
+::: {.fragment}
+or Neighborhood
+:::
+::: {.fragment}
+or Block?
+:::
+
+
+::: {.fragment}
+If your community is below 65,000, you need the 5 year ACS estimates. If it is 65,000 or greater, you can select either the 1 year or 5 year estimates.
+:::
+
+## Decennial Census
+
+## American Community Survey (ACS)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+The ACS is a nationwide survey that provides communities with social, economic, housing, and demographic data annually. 
+:::
+
+::: {.column width="50%"}
+
+:::
+
+::::
