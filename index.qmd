@@ -1,5 +1,48 @@
 ---
-title: "Data Bytes: Making Sense of the US Census"
+title: "Making Sense of the US Census"
+subtitle: "Data Bytes Fall 2024"
 ---
 
-This is the website for the Data Bytes webinar: "Making Sense of the US Census". 
+- **Survey**: Please be sure to take our survey [bit.ly/survey-data-bytes](https://bit.ly/survey-data-bytes){target="_blank"} and let us know your feedback about our September 16th "Making Sense of the US Census" session.
+
+- **Slides**: The slides [are available here](https://jhu-data-services.github.io/data-bytes-making-sense-of-the-census/making-sense-census-presentation.html#/title-slide){target="_blank"} (or above using the `Presentation` link). 
+
+- **Recording**:  As soon as the recording is available for "Making Sense of the US Census" it will be made available on our [Data Bytes Fall 2024](https://dataservices.library.jhu.edu/data-bytes/){target="_blank"} page. 
+
+- **Upcoming Data Bytes**: See upcoming Data Bytes sessions at [Data Bytes Fall 2024](https://dataservices.library.jhu.edu/data-bytes/){target="_blank"}. 
+
+
+## Census Resources
+
+### Learning
+To learn more about the US Census Bureau, available censuses and surveys, and how to work with Census data, please visit [Census Academy: Your Learning Hub for Data Skills](https://www.census.gov/data/academy.html){target="_blank"}.
+
+### Available Surveys
+
+**[Census Survey Explorer](https://www.census.gov/data/data-tools/survey-explorer/){target="_blank"}**: Use the [Census Survey Explorer](https://www.census.gov/data/data-tools/survey-explorer/) to discover U.S. Census Bureau surveys and censuses by filtering and searching by geography, frequency, topics, and subtopics. 
+
+**[List of Surveys](https://www.census.gov/programs-surveys/surveyhelp/list-of-surveys.html){target="_blank"}**: An alphabetical list of all Census Bureau surveys.
+
+### Accessing Census Data 
+
+**[QuickFacts](https://www.census.gov/quickfacts/){target="_blank"}**: QuickFacts provides statistics for all states, counties, and cities and towns with a population of 5,000 or more.
+
+**[data.census.gov](https://data.census.gov/){target="_blank"}**:
+Your primary source for accessing census data. 
+
+  - **Searching data.census.gov**: There are two ways to search [data.census.gov](https://data.census.gov). Search using the natural language search, formulating your search in the format:
+
+    `topic` in `geography` in `year`
+
+    For example, if I wanted to find data on commuting in Baltimore in      2017, I would use the query: `commute` in `Baltimore City` in `2017`. 
+    
+    If you are not successful, you can use the [advanced search](https://data.census.gov/advanced) to manually specify your search filters.
+
+### Accessing Census Microdata
+
+**Modern**: Access microdata from the American Community Survey using the [Public Use Microdata Sample (PUMS)](https://www.census.gov/programs-surveys/acs/microdata.html){target="_blank"} files. 
+
+**Historical**: Decennial census records older than 72 years are released through the National Archives: [archives.gov/research/census](https://www.archives.gov/research/census){target="_blank"}.
+
+### Additional Resources Beyond the Census Bureau
+
