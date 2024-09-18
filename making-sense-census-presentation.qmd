@@ -20,7 +20,9 @@ title-slide-attributes:
   data-background-opacity: "0.4"
 ---
 
-## {background-image=/images/db-fall.png}
+##
+
+![](/images/db-fall.png)
 
 ## History of the US Census {.smaller}
 ::: {.fragment}
@@ -311,8 +313,7 @@ The statistical equivalent to a place that has incorporated.
 
 
 ## Censuses and Surveys {.smaller}
-
-![](https://www.usda.gov/sites/default/files/nass-census-survey-difference-blog-110122.png)^[https://www.usda.gov/media/blog/2022/11/01/census-vs-survey-whats-difference]
+![](./images/census-survey.png){width=50%}^[https://www.usda.gov/media/blog/2022/11/01/census-vs-survey-whats-difference]
 
 ## Decennial Census {.smaller}
 
@@ -400,7 +401,7 @@ A unified platform for accessing U.S. Census data.
 :::
 
 ::: {.column width="50%"}
-![](https://www.census.gov/content/dam/Census/gs-imports/social-media-sharing-images/social-image-CEDSCI.png)^[https://www.census.gov/content/dam/Census/gs-imports/social-media-sharing-images/social-image-CEDSCI.png]
+![](/images/data-portal.png)^[https://www.census.gov/content/dam/Census/gs-imports/social-media-sharing-images/social-image-CEDSCI.png]
 :::
 
 ::::
@@ -426,7 +427,7 @@ Provides estimates of the population for the United States, states, metropolitan
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="70%"}
 
 ::: {.fragment}
 API or **A**pplication **P**rogramming **I**nterface.
@@ -454,7 +455,7 @@ Simplified API Interfaces exist in the programming languages R and Python:
 :::
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 ![](/images/api.png)
 :::
 ::::
