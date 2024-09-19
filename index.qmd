@@ -30,19 +30,84 @@ To learn more about the US Census Bureau, available censuses and surveys, and ho
 **[data.census.gov](https://data.census.gov/){target="_blank"}**:
 Your primary source for accessing census data. 
 
-  - **Searching data.census.gov**: There are two ways to search [data.census.gov](https://data.census.gov). Search using the natural language search, formulating your search in the format:
+  - **Searching data.census.gov**: There are two ways to search [data.census.gov](https://data.census.gov){target="_blank"}. Search using the natural language search, formulating your search in the format:
 
     `topic` in `geography` in `year`
 
     For example, if I wanted to find data on commuting in Baltimore in      2017, I would use the query: `commute` in `Baltimore City` in `2017`. 
     
-    If you are not successful, you can use the [advanced search](https://data.census.gov/advanced) to manually specify your search filters.
+    If you are not successful, you can use the [advanced search](https://data.census.gov/advanced){target="_blank"} to manually specify your search filters.
+
+
+**[Population Estimates Program (PEP)](https://www.census.gov/programs-surveys/popest/data.html)**: Produces estimates of the population for the United States, states, metropolitan and micropolitan statistical areas, counties, cities, towns, as well as for Puerto Rico and its municipios. The PEP is listed separately to [data.census.gov](https://data.census.gov){target="_blank"}
+
 
 ### Accessing Census Microdata
 
-**Modern**: Access microdata from the American Community Survey using the [Public Use Microdata Sample (PUMS)](https://www.census.gov/programs-surveys/acs/microdata.html){target="_blank"} files. 
+**Public**: Access microdata from the American Community Survey using the [Public Use Microdata Sample (PUMS)](https://www.census.gov/programs-surveys/acs/microdata.html){target="_blank"} files. 
+
+**[Restricted Use Microdata](https://www.census.gov/topics/research/guidance/restricted-use-microdata.html){target="_blank"}**: The Census Bureau maintains and enhances confidential microdata for use in social science research. These data are from censuses and surveys of businesses and households, linked employer-employee data, and administrative records from federal and state agencies and other sources. 
+
+These data are made available to qualified researchers at secure [Federal Statistical Research Data Centers](https://www.census.gov/about/adrm/fsrdc.html){target="_blank"} or, where authorized, through the secure Remote Access Program. See the list of [remote access qualifying data](https://www2.census.gov/adrm/FSRDC/remote-access-data/remote-access-data-list.xlsx){target="_blank"}. 
+
+To access restricted data, researchers will need to apply through the [Standard Application Portal (SAP)](https://www.census.gov/topics/research/guidance/restricted-use-microdata/standard-application-process.html){target="_blank"}
 
 **Historical**: Decennial census records older than 72 years are released through the National Archives: [archives.gov/research/census](https://www.archives.gov/research/census){target="_blank"}.
 
-### Additional Resources Beyond the Census Bureau
+### US and International Integrated Census Data
+
+ **[IPUMS](https://www.ipums.org/){target="_blank"}**: IPUMS provides census and survey data from around the world integrated across time and space. IPUMS integration and documentation makes it easy to study change, conduct comparative research, merge information across data types, and analyze individuals within family and community contexts. Data and services available free of charge.
+ 
+IPUMS is a part of the Institute for Social Research and Data Innovation at the University of Minnesota.
+
+- [IPUMS USA](https://usa.ipums.org/){target="_blank"}: U.S. Census and American Community Survey microdata from 1850 to the present.
+- [IPUMS CPS](https://cps.ipums.org/cps/){target="_blank"}: Current Population Survey microdata including basic monthly surveys and supplements from 1962 to the present.
+- [IPUMS International](https://international.ipums.org/international/){target="_blank"}: World's largest collection of census microdata covering over 100 countries, contemporary and historical. 
+- [IPUMS Global Health](https://globalhealth.ipums.org/){target="_blank"}: Health survey data from around the world. 
+- [IPUMS NHGIS](https://www.nhgis.org/){target="_blank"}: Tabular U.S. Census data and GIS boundary files from 1790 to the present.
+- [IPUMS IHGIS](https://ihgis.ipums.org/){target="_blank"}: Tabular and GIS data from population, housing, and agricultural censuses around the world.
+- [IPUMS Time Use](https://timeuse.ipums.org/){target="_blank"}: Historical and contemporary time use data from 1930 to the present. 
+- [IPUMS Health Surveys](https://healthsurveys.ipums.org/){target="_blank"}: Historical and contemporary U.S. health survey data from NHIS (1963-present) and MEPS.
+- [IPUMS Higher Ed](https://highered.ipums.org/){target="_blank"}: Survey data on the science and engineering workforce in the U.S. from 1993 to the present.
+
+
+### Application Programming Interface (APIs)
+
+The Census Data Application Programming Interface (API) is an API that gives the public access to raw statistical data from various Census Bureau data programs. Data is aggregated the data and associated with Census geographic boundary/areas defined by a FIPS code. Data is associated with a specific reference year, otherwise known as a "vintage".
+
+**[List of Available Census APIs](https://www.census.gov/data/developers/data-sets.html){target="_blank"}**
+
+**[Census API User Guide](https://www.census.gov/data/developers/guidance/api-user-guide.html){target="_blank"}**
+
+Many programming languages and statistical software provide simplified interfaces for working with the US Census data:
+
+##### Stata
+
+`getcensus` is a Stata package for loading American Community Survey (ACS) data from the U.S. Census Bureau API into Stata: [https://centeronbudget.github.io/getcensus/](https://centeronbudget.github.io/getcensus/){target="_blank"}
+
+
+##### Python
+
+`census` is a Python package that provides access to the American Community Survey (ACS) and [SF1](https://www.census.gov/data/datasets/2010/dec/summary-file-1.html){target="_blank"}: [https://pypi.org/project/census/](https://pypi.org/project/census/){target="_blank"}
+
+`ipumspy`: ipumspy is a collection of python tools for working with data from IPUMS and for accessing that data via API.
+
+Currently only IPUMS microdata collections are supported: 
+
+[https://ipumspy.readthedocs.io/en/latest/](https://ipumspy.readthedocs.io/en/latest/){target="_blank"}
+
+##### R
+
+`tidycensus` is an R package that allows users to interface with a select number of the US Census Bureau’s data APIs including the American Community Survey (ACS), Decennial census, Population Estimates Program (PEP), Public Use Microdata Series (PUMS), and return tidyverse-ready data frames, optionally with simple feature geometry included: [https://walker-data.com/tidycensus/index.html](https://walker-data.com/tidycensus/index.html){target="_blank"}
+
+`ipumsr`: ipumsr provides an R interface for handling IPUMS data, allowing users to:
+
+- Easily read files downloaded from the IPUMS extract system
+
+- Request data, download files, and get metadata from certain IPUMS collections
+
+- Interpret and process data using the contextual information that is included with many IPUMS files
+
+  [https://tech.popdata.org/ipumsr/](https://tech.popdata.org/ipumsr/){target="_blank"}
+
 

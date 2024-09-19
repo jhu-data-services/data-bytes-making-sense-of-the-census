@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Making Sense of the Census - Data Bytes: Making Sense of the US Census</title>
+<title>Making Sense of the Census - Making Sense of the US Census</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,14 +108,29 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#census-resources" id="toc-census-resources" class="nav-link active" data-scroll-target="#census-resources">Census Resources</a>
+  <ul class="collapse">
+  <li><a href="#learning" id="toc-learning" class="nav-link" data-scroll-target="#learning">Learning</a></li>
+  <li><a href="#available-surveys" id="toc-available-surveys" class="nav-link" data-scroll-target="#available-surveys">Available Surveys</a></li>
+  <li><a href="#accessing-census-data" id="toc-accessing-census-data" class="nav-link" data-scroll-target="#accessing-census-data">Accessing Census Data</a></li>
+  <li><a href="#accessing-census-microdata" id="toc-accessing-census-microdata" class="nav-link" data-scroll-target="#accessing-census-microdata">Accessing Census Microdata</a></li>
+  <li><a href="#us-and-international-integrated-census-data" id="toc-us-and-international-integrated-census-data" class="nav-link" data-scroll-target="#us-and-international-integrated-census-data">US and International Integrated Census Data</a></li>
+  <li><a href="#application-programming-interface-apis" id="toc-application-programming-interface-apis" class="nav-link" data-scroll-target="#application-programming-interface-apis">Application Programming Interface (APIs)</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Bytes: Making Sense of the US Census</h1>
+<h1 class="title">Making Sense of the US Census</h1>
+<p class="subtitle lead">Data Bytes Fall 2024</p>
 </div>
 
 
@@ -132,9 +147,91 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is the website for the Data Bytes webinar: “Making Sense of the US Census”.</p>
+<ul>
+<li><p><strong>Survey</strong>: Please be sure to take our survey <a href="https://bit.ly/survey-data-bytes" target="_blank">bit.ly/survey-data-bytes</a> and let us know your feedback about our September 16th “Making Sense of the US Census” session.</p></li>
+<li><p><strong>Slides</strong>: The slides <a href="https://jhu-data-services.github.io/data-bytes-making-sense-of-the-census/making-sense-census-presentation.html#/title-slide" target="_blank">are available here</a> (or above using the <code>Presentation</code> link).</p></li>
+<li><p><strong>Recording</strong>: As soon as the recording is available for “Making Sense of the US Census” it will be made available on our <a href="https://dataservices.library.jhu.edu/data-bytes/" target="_blank">Data Bytes Fall 2024</a> page.</p></li>
+<li><p><strong>Upcoming Data Bytes</strong>: See upcoming Data Bytes sessions at <a href="https://dataservices.library.jhu.edu/data-bytes/" target="_blank">Data Bytes Fall 2024</a>.</p></li>
+</ul>
+<section id="census-resources" class="level2">
+<h2 class="anchored" data-anchor-id="census-resources">Census Resources</h2>
+<section id="learning" class="level3">
+<h3 class="anchored" data-anchor-id="learning">Learning</h3>
+<p>To learn more about the US Census Bureau, available censuses and surveys, and how to work with Census data, please visit <a href="https://www.census.gov/data/academy.html" target="_blank">Census Academy: Your Learning Hub for Data Skills</a>.</p>
+</section>
+<section id="available-surveys" class="level3">
+<h3 class="anchored" data-anchor-id="available-surveys">Available Surveys</h3>
+<p><strong><a href="https://www.census.gov/data/data-tools/survey-explorer/" target="_blank">Census Survey Explorer</a></strong>: Use the <a href="https://www.census.gov/data/data-tools/survey-explorer/">Census Survey Explorer</a> to discover U.S. Census Bureau surveys and censuses by filtering and searching by geography, frequency, topics, and subtopics.</p>
+<p><strong><a href="https://www.census.gov/programs-surveys/surveyhelp/list-of-surveys.html" target="_blank">List of Surveys</a></strong>: An alphabetical list of all Census Bureau surveys.</p>
+</section>
+<section id="accessing-census-data" class="level3">
+<h3 class="anchored" data-anchor-id="accessing-census-data">Accessing Census Data</h3>
+<p><strong><a href="https://www.census.gov/quickfacts/" target="_blank">QuickFacts</a></strong>: QuickFacts provides statistics for all states, counties, and cities and towns with a population of 5,000 or more.</p>
+<p><strong><a href="https://data.census.gov/" target="_blank">data.census.gov</a></strong>: Your primary source for accessing census data.</p>
+<ul>
+<li><p><strong>Searching data.census.gov</strong>: There are two ways to search <a href="https://data.census.gov" target="_blank">data.census.gov</a>. Search using the natural language search, formulating your search in the format:</p>
+<p><code>topic</code> in <code>geography</code> in <code>year</code></p>
+<p>For example, if I wanted to find data on commuting in Baltimore in 2017, I would use the query: <code>commute</code> in <code>Baltimore City</code> in <code>2017</code>.</p>
+<p>If you are not successful, you can use the <a href="https://data.census.gov/advanced" target="_blank">advanced search</a> to manually specify your search filters.</p></li>
+</ul>
+<p><strong><a href="https://www.census.gov/programs-surveys/popest/data.html">Population Estimates Program (PEP)</a></strong>: Produces estimates of the population for the United States, states, metropolitan and micropolitan statistical areas, counties, cities, towns, as well as for Puerto Rico and its municipios. The PEP is listed separately to <a href="https://data.census.gov" target="_blank">data.census.gov</a></p>
+</section>
+<section id="accessing-census-microdata" class="level3">
+<h3 class="anchored" data-anchor-id="accessing-census-microdata">Accessing Census Microdata</h3>
+<p><strong>Public</strong>: Access microdata from the American Community Survey using the <a href="https://www.census.gov/programs-surveys/acs/microdata.html" target="_blank">Public Use Microdata Sample (PUMS)</a> files.</p>
+<p><strong><a href="https://www.census.gov/topics/research/guidance/restricted-use-microdata.html" target="_blank">Restricted Use Microdata</a></strong>: The Census Bureau maintains and enhances confidential microdata for use in social science research. These data are from censuses and surveys of businesses and households, linked employer-employee data, and administrative records from federal and state agencies and other sources.</p>
+<p>These data are made available to qualified researchers at secure <a href="https://www.census.gov/about/adrm/fsrdc.html" target="_blank">Federal Statistical Research Data Centers</a> or, where authorized, through the secure Remote Access Program. See the list of <a href="https://www2.census.gov/adrm/FSRDC/remote-access-data/remote-access-data-list.xlsx" target="_blank">remote access qualifying data</a>.</p>
+<p>To access restricted data, researchers will need to apply through the <a href="https://www.census.gov/topics/research/guidance/restricted-use-microdata/standard-application-process.html" target="_blank">Standard Application Portal (SAP)</a></p>
+<p><strong>Historical</strong>: Decennial census records older than 72 years are released through the National Archives: <a href="https://www.archives.gov/research/census" target="_blank">archives.gov/research/census</a>.</p>
+</section>
+<section id="us-and-international-integrated-census-data" class="level3">
+<h3 class="anchored" data-anchor-id="us-and-international-integrated-census-data">US and International Integrated Census Data</h3>
+<p><strong><a href="https://www.ipums.org/" target="_blank">IPUMS</a></strong>: IPUMS provides census and survey data from around the world integrated across time and space. IPUMS integration and documentation makes it easy to study change, conduct comparative research, merge information across data types, and analyze individuals within family and community contexts. Data and services available free of charge.</p>
+<p>IPUMS is a part of the Institute for Social Research and Data Innovation at the University of Minnesota.</p>
+<ul>
+<li><a href="https://usa.ipums.org/" target="_blank">IPUMS USA</a>: U.S. Census and American Community Survey microdata from 1850 to the present.</li>
+<li><a href="https://cps.ipums.org/cps/" target="_blank">IPUMS CPS</a>: Current Population Survey microdata including basic monthly surveys and supplements from 1962 to the present.</li>
+<li><a href="https://international.ipums.org/international/" target="_blank">IPUMS International</a>: World’s largest collection of census microdata covering over 100 countries, contemporary and historical.</li>
+<li><a href="https://globalhealth.ipums.org/" target="_blank">IPUMS Global Health</a>: Health survey data from around the world.</li>
+<li><a href="https://www.nhgis.org/" target="_blank">IPUMS NHGIS</a>: Tabular U.S. Census data and GIS boundary files from 1790 to the present.</li>
+<li><a href="https://ihgis.ipums.org/" target="_blank">IPUMS IHGIS</a>: Tabular and GIS data from population, housing, and agricultural censuses around the world.</li>
+<li><a href="https://timeuse.ipums.org/" target="_blank">IPUMS Time Use</a>: Historical and contemporary time use data from 1930 to the present.</li>
+<li><a href="https://healthsurveys.ipums.org/" target="_blank">IPUMS Health Surveys</a>: Historical and contemporary U.S. health survey data from NHIS (1963-present) and MEPS.</li>
+<li><a href="https://highered.ipums.org/" target="_blank">IPUMS Higher Ed</a>: Survey data on the science and engineering workforce in the U.S. from 1993 to the present.</li>
+</ul>
+</section>
+<section id="application-programming-interface-apis" class="level3">
+<h3 class="anchored" data-anchor-id="application-programming-interface-apis">Application Programming Interface (APIs)</h3>
+<p>The Census Data Application Programming Interface (API) is an API that gives the public access to raw statistical data from various Census Bureau data programs. Data is aggregated the data and associated with Census geographic boundary/areas defined by a FIPS code. Data is associated with a specific reference year, otherwise known as a “vintage”.</p>
+<p><strong><a href="https://www.census.gov/data/developers/data-sets.html" target="_blank">List of Available Census APIs</a></strong></p>
+<p><strong><a href="https://www.census.gov/data/developers/guidance/api-user-guide.html" target="_blank">Census API User Guide</a></strong></p>
+<p>Many programming languages and statistical software provide simplified interfaces for working with the US Census data:</p>
+<section id="stata" class="level5">
+<h5 class="anchored" data-anchor-id="stata">Stata</h5>
+<p><code>getcensus</code> is a Stata package for loading American Community Survey (ACS) data from the U.S. Census Bureau API into Stata: <a href="https://centeronbudget.github.io/getcensus/" target="_blank">https://centeronbudget.github.io/getcensus/</a></p>
+</section>
+<section id="python" class="level5">
+<h5 class="anchored" data-anchor-id="python">Python</h5>
+<p><code>census</code> is a Python package that provides access to the American Community Survey (ACS) and <a href="https://www.census.gov/data/datasets/2010/dec/summary-file-1.html" target="_blank">SF1</a>: <a href="https://pypi.org/project/census/" target="_blank">https://pypi.org/project/census/</a></p>
+<p><code>ipumspy</code>: ipumspy is a collection of python tools for working with data from IPUMS and for accessing that data via API.</p>
+<p>Currently only IPUMS microdata collections are supported:</p>
+<p><a href="https://ipumspy.readthedocs.io/en/latest/" target="_blank">https://ipumspy.readthedocs.io/en/latest/</a></p>
+</section>
+<section id="r" class="level5">
+<h5 class="anchored" data-anchor-id="r">R</h5>
+<p><code>tidycensus</code> is an R package that allows users to interface with a select number of the US Census Bureau’s data APIs including the American Community Survey (ACS), Decennial census, Population Estimates Program (PEP), Public Use Microdata Series (PUMS), and return tidyverse-ready data frames, optionally with simple feature geometry included: <a href="https://walker-data.com/tidycensus/index.html" target="_blank">https://walker-data.com/tidycensus/index.html</a></p>
+<p><code>ipumsr</code>: ipumsr provides an R interface for handling IPUMS data, allowing users to:</p>
+<ul>
+<li><p>Easily read files downloaded from the IPUMS extract system</p></li>
+<li><p>Request data, download files, and get metadata from certain IPUMS collections</p></li>
+<li><p>Interpret and process data using the contextual information that is included with many IPUMS files</p>
+<p><a href="https://tech.popdata.org/ipumsr/" target="_blank">https://tech.popdata.org/ipumsr/</a></p></li>
+</ul>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

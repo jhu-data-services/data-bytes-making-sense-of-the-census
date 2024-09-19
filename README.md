@@ -9,25 +9,15 @@ JHU Data Services, part of the Johns Hopkins University Sheridan Libraries, help
 
 This repository contains materials for one of our live webinars open to JHU students, faculty, and staff. Please [contact us](mailto:dataservices@jhu.edu) with any questions.
 
-As of March 2020, Data Services workshops are being held virtually on Zoom. [See our calendar to register for upcoming workshops.](https://dataservices.library.jhu.edu/training-workshops/calendar/)
-
-
-## Pre-Class Instructions
-Before the class, follow the [installation instructions to download all required software and tools for this workshop](link-to-github-installation-repo).
-
 
 ## Description of Files
-- Data: This folder contains raw data files to be used during hands-on activities in the workshop
-- In-ClassScripts: This folder contains code files you will need for the workshop:
-    - [file1]
-    - [file2]
-    - [file3]
-- PresentationMaterials: This folder contains PowerPoint slides and other presentation materials used in the workshop
-- Resources: This folder contains cheatsheets to assist you during the workshop and links to external sources for you to continue your learning
+- PresentationMaterials: Access the presentation slides at [https://jhu-data-services.github.io/data-bytes-making-sense-of-the-census/making-sense-census-presentation.html#/title-slide](https://jhu-data-services.github.io/data-bytes-making-sense-of-the-census/making-sense-census-presentation.html#/title-slide){target="_blank"}
+- Resources: Access additional resources at [jhu-data-services.github.io/data-bytes-making-sense-of-the-census/](https://jhu-data-services.github.io/data-bytes-making-sense-of-the-census/){target="_blank"}
+
 
 
 ## Post-Class Survey
-If you have taken the live webinar for this class, please take this survey: [link name](url)
+If you have taken the live webinar for this class, please take this survey: [bit.ly/survey-data-bytes](https://bit.ly/survey-data-bytes){target="_blank"}
 
 
 ## License and Terms of Use
@@ -40,4 +30,4 @@ The images, external resources, and cheatsheets linked in this repository may ha
 
 ## Citation
 Please cite this material as:    
-Johns Hopkins University Data Services. [Date of workshop]. [Workshop title]. [URL] 
+Johns Hopkins University Data Services. September 16th, 2024. Data Bytes - Making Sense of the US Census. [https://jhu-data-services.github.io/data-bytes-making-sense-of-the-census/making-sense-census-presentation.html#/title-slide](https://jhu-data-services.github.io/data-bytes-making-sense-of-the-census/making-sense-census-presentation.html#/title-slide){target="_blank"}
